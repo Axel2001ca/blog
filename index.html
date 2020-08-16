@@ -1,0 +1,154 @@
+---
+layout: default
+current: home
+class: 'home-template'
+navigation: True
+---
+
+<!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
+    <div class="inner">
+        <div class="site-header-content">
+            <h1 class="site-title">
+                {% if site.logo %}
+                <img style="border-radius: 10px;width: 100px;-webkit-user-select: none;margin: auto;cursor: zoom-in;height: 100px;" src="/assets/images/27095315.jpg" width="100" height="100">
+                   
+                {% else %}
+                    {{ site.title }}
+                {% endif %}
+            </h1>
+            <h2 class="post-card-title">Axel Castro.</h2>
+              <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
+        </div>
+        {% include site-nav.html %}
+    </div>
+</header>
+
+<!-- The main content area -->
+<main id="site-main" class="site-main outer" role="main">
+    
+    
+    
+    
+    
+    
+    <div class="inner">
+        
+        
+        
+        
+        
+        <div class="post-feed">
+            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+            
+
+
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/#">
+                <div class="post-card-image" style="background-image: url(https://www.claraavilac.com/wp-content/uploads/2017/09/crearse-un-blog.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/#">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags"> </span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Bienvenidos a mi Blog</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>Hey! Bienvenido a mi blog, aqui encontraras mucha información sobre mi y cosas interesantes.
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                  
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+
+
+        </div>
+        
+        
+        
+        
+        
+        
+        
+
+        <article class="post-full post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">¿Quien Soy?</h1>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <blockquote>
+  <p>Me llamo Axell Iván castro navarro, Nací el 27 de julio del 2001.<br>Crecí en una parroquia o pueblo, una hermosa isla rodeada de vegetación y paisajes increíbles con un ambiente ideal para vivir a los 16 años llegué a vivir en Guayaquil hasta la actualidad.<br>
+Me destaque durante la etapa de estudios con excelentes notas y promedios llegando a ser uno de los mejores estudiantes dentro de mi colegio y siempre me destaque para las matemáticas y me llamaba mucho la atención la tecnología y sus características <br>
+A los 17 años de edad me gradué con un excelente promedio y una excelente prueba “Ser Bachiller” y no dude en elegir la carrera de software, porque me apasionaba desde niño descubrir más allá de lo que vemos en una computadora, en ver como se crean cada una de las características que hacen tan especial a un computador y luego ponerlo en ejecución.<br>
+Actualmente cruzo la carrera de “INGENIERIA EN SOTWARE” en la Universidad de Guayaquil una carrera en la cual había depositado mis sueños y metas en la etapa de estudiante de colegio.
+</p>
+</blockquote>
+
+<blockquote>
+  <p>
+    <h3>Ámbito academico</h3> <br>
+      2008-2010 (ESCUELA VICTOR EMILILIO ESTRADA) <br>
+      2010-2014 (ESCUELA NUEVAS ESPERANZAS DEL MILENUM)<br>
+2014-2015 (COLEGIO AMERICANO DE NACIONES)<br>
+2016-2016 unos meses (COLEGIO DOMINGO COMIN)<br>
+2016-2019 (COLEGIO SAN AGUSTIN)<br>
+2019-ACT (UNIVERSIDAD ESTATAL DE GUAYAQUIL)<br>
+  </p>
+               <center><img alt="Universidad de Guayaquil pospone el proceso de matriculación para ..." class="n3VNCb" src="https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2020/05/universidad_de_guayaquil_fachada_0.jpg?itok=7Paz08PK" data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd,gvK6lb;" style="width: 393.797px;height: 233px;margin: 0px;"></center>
+</blockquote>
+<p> .</p>
+            </section>
+
+        </article>
+
+    </div>
+
+    </div>
+</main>
